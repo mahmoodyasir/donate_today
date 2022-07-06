@@ -40,6 +40,10 @@ body {
     opacity: 0.7;
 }
 
+.cancel-margin {
+    margin-top: -70px;
+}
+
 /* Common CSS Finished */
 
 /* Section-1 CSS Starts */
@@ -114,6 +118,27 @@ body {
     opacity: 0.4;
 }
 
+.input-div {
+    padding-left: 15px;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+input:focus {
+    border-color: green
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.6;
+}
+
 /* Section-2 CSS Finished */
 
 /* Section-3 CSS Starts */
@@ -122,9 +147,6 @@ body {
     text-align: center;
 }
 
-.cancel-margin {
-    margin-top: -70px;
-}
 
 .main-box-div {
     display: flex;
@@ -154,3 +176,5 @@ body {
     padding: 40px 20px;
     border-radius: 5px;
 }
+
+/* Section-3 CSS Finished */
