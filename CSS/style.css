@@ -213,6 +213,10 @@ body {
 
 /* Section-5 CSS Starts */
 
+.section-5 {
+    height: 450px;
+}
+
 .email-input[type="text"] {
     border: none;
     height: 44px;
@@ -244,4 +248,39 @@ body {
 
 .email-input:focus {
     outline: none
+}
+
+.parent-div-update {
+    display: flex;
+    justify-content: center;
+}
+
+.update-input {
+    margin-top: 30px;
+    background-color: rgb(255, 244, 214);
+    padding: 65px 160px;
+}
+
+/* Section-5 CSS Finished */
+
+/* Footer CSS Starts */
+
+footer {
+    background-color: black;
+    height: 150px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer-head {
+    color: #3566c7;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    padding-top: 25px;
+}
+
+.footer-paragraph {
+    font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+    font-size: 14px;
 }
