@@ -1,3 +1,5 @@
+/* Common CSS Starts */
+
 body {
     margin: 0;
 }
@@ -31,7 +33,16 @@ body {
     padding-top: 100px;
 }
 
+.paragraph-lite {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 18px;
+    opacity: 0.7;
+}
 
+/* Common CSS Finished */
+
+/* Section-1 CSS Starts */
 .section-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/donation0.jpg");
     background-repeat: no-repeat;
@@ -44,6 +55,10 @@ body {
     text-align: center;
     padding-top: 10%;
 }
+
+/* Section-1 CSS Finished */
+
+/* Section-2 CSS Starts */
 
 .second-div-center {
     text-align: center;
@@ -97,4 +112,45 @@ body {
     font-family: 'Roboto', sans-serif;
     color: black;
     opacity: 0.4;
+}
+
+/* Section-2 CSS Finished */
+
+/* Section-3 CSS Starts */
+
+.third-div-center {
+    text-align: center;
+}
+
+.cancel-margin {
+    margin-top: -70px;
+}
+
+.main-box-div {
+    display: flex;
+    justify-content: center;
+}
+
+.box-item-1 {
+    width: 20%;
+    background-color: rgba(79, 157, 166, 0.1);
+    margin: 10px;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+.box-item-2 {
+    width: 20%;
+    background-color: rgba(255, 89, 89, 0.1);
+    margin: 10px;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+.box-item-3 {
+    width: 20%;
+    background-color: rgb(255, 244, 214);
+    margin: 10px;
+    padding: 40px 20px;
+    border-radius: 5px;
 }
