@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+.font-white {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.font-black {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.common-btn {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #FF5959;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.section-all {
+    height: 600px;
+    padding-bottom: 100px;
+}
+
+.space-above {
+    padding-top: 100px;
+}
+
+
+.section-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/donation0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.first-div-centre {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.second-div-center {
+    text-align: center;
+}
+
+.donate-text {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.6;
+}
+
+.donate-text-selected {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.donate-amount {
+    background-color: #F5F5F5;
+    padding: 35px 20px;
+    color: black;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+.donate-amount-oversize {
+    background-color: #F5F5F5;
+    padding: 35px 10px;
+    color: black;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+.donate-amount-selected {
+    background-color: #FFEEEE;
+    padding: 35px 20px;
+    color: #FF5959;
+    border-radius: 5px;
+    margin-left: 1%;
+    border-style: solid;
+    border-color: #FF5959;
+}
+
+.line-position {
+    margin-top: -25px;
+    opacity: 0.4;
+}
+
+.line-text {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    opacity: 0.4;
+}
