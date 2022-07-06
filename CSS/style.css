@@ -44,6 +44,10 @@ body {
     margin-top: -70px;
 }
 
+.div-center {
+    text-align: center;
+}
+
 /* Common CSS Finished */
 
 /* Section-1 CSS Starts */
@@ -63,10 +67,6 @@ body {
 /* Section-1 CSS Finished */
 
 /* Section-2 CSS Starts */
-
-.second-div-center {
-    text-align: center;
-}
 
 .donate-text {
     font-size: 30px;
@@ -122,18 +122,20 @@ body {
     padding-left: 15px;
 }
 
-input {
+.donate-input {
     outline: 0;
     border-width: 0 0 2px;
     border-color: rgb(0, 0, 0, 0.1);
     width: 48%;
+
 }
 
-input:focus {
+.donate-input:focus {
     border-color: green
 }
 
-::-webkit-input-placeholder {
+
+.donate-input::-webkit-input-placeholder {
     text-align: center;
     font-size: 18px;
     opacity: 0.6;
@@ -142,11 +144,6 @@ input:focus {
 /* Section-2 CSS Finished */
 
 /* Section-3 CSS Starts */
-
-.third-div-center {
-    text-align: center;
-}
-
 
 .main-box-div {
     display: flex;
@@ -178,3 +175,73 @@ input:focus {
 }
 
 /* Section-3 CSS Finished */
+
+/* Section-4 CSS Starts */
+
+
+.news-image {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.news-box {
+    width: 25%;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 10px 0px gray;
+    text-align: center;
+    margin: 10px;
+}
+
+.news-box a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 0, 247);
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-box-news {
+    display: flex;
+    justify-content: center;
+}
+
+/* Section-4 CSS Finished */
+
+/* Section-5 CSS Starts */
+
+.email-input[type="text"] {
+    border: none;
+    height: 44px;
+    padding-right: 150px;
+    margin-right: -50px;
+    background-color: #E1D9D1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.submit-input[type="submit"] {
+    border: none;
+    height: 46px;
+    color: white;
+    background-color: #FF5959;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.submit-input:hover {
+    cursor: pointer;
+}
+
+.email-input::-webkit-input-placeholder {
+    padding-left: 10px;
+}
+
+.email-input:focus {
+    outline: none
+}
